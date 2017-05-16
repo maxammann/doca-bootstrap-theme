@@ -104,6 +104,7 @@ class Sidebar extends Component {
 
     return (
       <nav id="sidebar-wrapper">
+        <img className="logo" src={require('../assets/integreat-app-logo.png')}/>
         <div className="search">
           <input
             type="text"
